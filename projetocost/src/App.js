@@ -2,6 +2,8 @@
 import './App.css';
 import Pessoas from './components/Pessoas';
 import Frase from './components/Frase';
+import Lista from './components/Lista';
+
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       profissao = "Programador"
       foto = "https://via.placeholder.com/150"
     />
+    <Lista/>
+   
     </div>
   );
 }
