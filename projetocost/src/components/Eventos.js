@@ -7,6 +7,7 @@ function Eventos({numero}){
     return(
         <div>
         <p>Clique aqui para ativar evento:</p>
+       
         <button onClick={meuEvento}>Ativar!</button>
         </div>
     )
